@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url("https://i.imgur.com/huvGP3g.jpg");
+  background-size: cover;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 10vh;
+  max-height: 10vh;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  /* text-decoration: underline;
+  text-decoration-color: transparent; */
+  padding-right: 2rem;
+}
+
+.nav-link {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-link:hover {
+  color: #FFD632;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  
+}
+
+.logo {
+  padding-left: 2rem;
+  font-size: 2rem;
+  color: white;
+  /* animation: logo_animation 5s infinite; */
+}
+
+.logo:hover{
+  animation-play-state: paused;
+}
+
+.active {
+  color: white;
+  background: #396afc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #396afc,
+    #2948ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #396afc, #2948ff);
+  border-radius: 20px;
+}
+
+
+/* @keyframes logo_animation {
+  0% {text-shadow: 0 0 20px #F42B4F;}
+  20% {text-shadow: 0 0 20px #4289F0;}
+  40% {text-shadow: 0 0 20px #FABA30;}
+  60% {text-shadow: 0 0 20px #1B9C5C;}
+  80% {text-shadow: 0 0 20px #E0286A;}
+  100% {text-shadow: 0 0 20px #ffe227;}
+} */
+
