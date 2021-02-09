@@ -36,4 +36,4 @@ hamburger.addEventListener('click', function() {
     }
     
 
-})
+});
