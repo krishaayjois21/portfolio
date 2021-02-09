@@ -17,17 +17,17 @@ app.get('/blog' , function(req , res){
     res.render('blog');
 });
 
-app.get('/exp' , function(req , res){
-    res.render('exp');
-});
+// app.get('/exp' , function(req , res){
+//     res.render('exp');
+// });
 
-app.get('/social' , function(req , res){
-    res.render('social');
-});
+// app.get('/social' , function(req , res){
+//     res.render('social');
+// });
 
-app.get('/skills' , function(req , res){
-    res.render('skills');
-});
+// app.get('/skills' , function(req , res){
+//     res.render('skills');
+// });
 
 app.listen(PORT , function(){
     console.log(`Serving on port ${PORT}`);
