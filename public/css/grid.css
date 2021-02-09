@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+.column {
+    float: left;
+    max-width: 600px;
+    padding: none;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card {
+   padding-bottom: 20px;
+    
+    text-align: center;
+    background-color: #232323;
+    font-family: 'Poppins' , sans-serif;
+    /* border-radius: 15px; */
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow:  0 0 20px #396afc;
+  }
+  .project-cover {
+      max-width: 600px;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+    
+      /* border-radius: 20px; */
+  }
+  .project-title{
+      font-weight: bold;
+      font-size: 28px;
+      letter-spacing: 2px;
+      color: white;
+  }
+  
+  .project-description{
+      font-weight: regular;
+      font-size: 24px;
+      color:#959595;
+  }
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+
+    .project-cover{
+      max-width: 100%;
+    }
+  }
