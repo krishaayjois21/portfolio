@@ -3,9 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Krishaay Jois</title>
+    <title>Krishaay Jois | Articles</title>
     <link rel="icon" type="image/png" href="/images/logo.png" />
     <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/css/grid.css" />
   </head>
 
   <body class="mobile">
@@ -24,21 +26,116 @@
           <li>
             <a href="/">About</a>
           </li>
-          <li><a href="/projects">Projects</a></li>
+          <li class="active"><a href="#projects">Projects</a></li>
           <li><a href="/exp">Experience</a></li>
-          <li class="active"><a href="/blog">Articles</a></li>
+          <li><a href="/blog">Articles</a></li>
           <li><a href="/skills">Skills</a></li>
           <li><a href="/contact">Contact</a></li>
         </ul>
       </div>
     </nav>
     <main>
-      <section class="header container about-section" id="about">
+      <section class="header container" id="projects">
         <h1 class="title">My Articles</h1>
-        <div class="blog-content"></div>
+        <div class="row-wrapper">
+          <div class="row">
+            <div class="column">
+                <div class="card">
+                  <img
+                    class="project-cover"
+                    src="/images/blog/multi-container-app-with-docker-compose.png"
+                  />
+                  <br />
+                  <span class="project-title"
+                    >Multi Container App With Docker Compose</span
+                  >
+                  <br />
+                  <span class="project-description"
+                    >In this article I explian how to use compose to deploy an
+                    app with multiple containers/services</span
+                  >
+                  <br />
+                  <br />
+                  <div class="project-tags">
+                    Docker | Containers | HTML5 | CSS3 | Javascript | NodeJS
+                  </div>
+                  <br />
+                  <div class="blog-buttons">
+                    <button class="blog-devto">
+                      <i class="fab fa-dev"></i>
+                      DEV.TO
+                    </button>
+                    <a href="https://krishaayjois.hashnode.dev/multi-container-app-with-docker-compose">
+                    <button class="blog-hashnode">
+                      <span
+                        class="iconify"
+                        data-icon="simple-icons:hashnode"
+                        data-inline="true"
+                      ></span>
+                      Hashnode
+                    </button>
+                  </a>
+                    <a href="https://krishaayjois21.medium.com/multi-container-app-with-docker-compose-d58ce6203e58">
+                    <button class="blog-medium">
+                      <i class="fab fa-medium"></i>
+                      Medium
+                    </button>
+                  </a>
+                  </div>
+                </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <img
+                  class="project-cover"
+                  src="/images/blog/multi-container-app-with-docker-compose.png"
+                />
+                <br />
+                <span class="project-title"
+                  >Multi Container App With Docker Compose</span
+                >
+                <br />
+                <span class="project-description"
+                  >In this article I explian how to use compose to deploy an
+                  app with multiple containers/services</span
+                >
+                <br />
+                <br />
+                <div class="project-tags">
+                  Docker | Containers | HTML5 | CSS3 | Javascript | NodeJS
+                </div>
+                <br />
+                <div class="blog-buttons">
+                  <button class="blog-devto">
+                    <i class="fab fa-dev"></i>
+                    DEV.TO
+                  </button>
+                  <a href="https://krishaayjois.hashnode.dev/multi-container-app-with-docker-compose">
+                  <button class="blog-hashnode">
+                    <span
+                      class="iconify"
+                      data-icon="simple-icons:hashnode"
+                      data-inline="true"
+                    ></span>
+                    Hashnode
+                  </button>
+                </a>
+                  <a href="https://krishaayjois21.medium.com/multi-container-app-with-docker-compose-d58ce6203e58">
+                  <button class="blog-medium">
+                    <i class="fab fa-medium"></i>
+                    Medium
+                  </button>
+                </a>
+                </div>
+              </div>
+          </div>
+          </div>
+        </div>
       </section>
     </main>
     <script src="/js/app.js"></script>
     <script src="/js/sticky-nav.js"></script>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    
   </body>
 </html>
